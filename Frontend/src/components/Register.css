@@ -1,0 +1,58 @@
+.register-container {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: linear-gradient(rgba(55, 54, 54, 0.85), rgba(51, 49, 49, 0.85)),
+              url('http://localhost:5002/images/concerts/bg.jpg') center/cover fixed;
+  color: white;
+  text-align: center;
+}
+
+.register-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.register-description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #d1d1d1;
+}
+
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.video-card {
+  background: linear-gradient(rgba(55, 54, 54, 0.85), rgba(51, 49, 49, 0.85)),
+              url('http://localhost:5002/images/concerts/bg.jpg') center/cover fixed;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: white;
+}
+
+.video-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ffadad;
+}
+
+.video-card p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #cbd5e1;
+}
+
+iframe {
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 100%;
+  height: 315px;
+}

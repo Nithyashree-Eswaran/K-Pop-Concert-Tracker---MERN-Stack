@@ -1,0 +1,162 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url('http://localhost:5002/images/concerts/bg.jpg') center/cover fixed;
+  padding: 20px;
+}
+
+.login-box {
+  background: rgba(163, 155, 155, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  backdrop-filter: blur(5px); 
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  background: linear-gradient(45deg, #6a0dad, #e259d9, #920ec7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.login-header p {
+  color: #a49898;
+  font-size: 0.9rem;
+}
+
+.login-form {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  background-color: #fafafa;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #a8a8a8;
+  background-color: white;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(45deg, #9947cf, #cb3ec1, #a848e7, #c13584);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  background: linear-gradient(45deg, #657ca6, #9844d0, #6d2f8e, #393638);
+  transform: translateY(-2px);
+}
+
+.divider {
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 45%;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.divider span {
+  background-color: white;
+  padding: 0 10px;
+  color: #8e8e8e;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.social-login {
+  margin-bottom: 20px;
+}
+
+.google-login {
+  width: 100%;
+  padding: 12px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  color: #262626;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.google-login:hover {
+  background-color: #fafafa;
+}
+
+.forgot-password {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.forgot-password a {
+  color: #c383f0ea; 
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.signup-link {
+  text-align: center;
+  color: #262626;
+  font-size: 1.0rem;
+  font-style: italic;
+}
+
+.signup-link a {
+  color: #d487f0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-link a:hover {
+  color: #00376b;
+}
